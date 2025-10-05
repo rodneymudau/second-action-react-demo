@@ -5,4 +5,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: output message
-              run: echo "${toJson(github)} is running..."
+              run: echo "${{toJson(github)}} is running..."
