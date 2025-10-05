@@ -1,7 +1,7 @@
 name: Output Pipeline
 on: workflow_dispatch
 jobs:
-    output:
+    info:
         runs-on: ubuntu-latest
         steps:
             - name: output message
